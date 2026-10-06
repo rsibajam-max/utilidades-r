@@ -4,11 +4,11 @@ Scripts utilitarios en R para tareas locales: manipulación de archivos, procesa
 
 ## Proyectos
 
-- **[01 — Editor de PDFs](01-editor-pdf/README.md)**: combina, extrae y reordena páginas de PDFs sin subirlos a servicios web.
+- **[01 — Editor de PDFs](01-editor-pdf/README.md)**: combina, extrae, reordena páginas de PDFs y convierte imágenes JPG, JPEG y PNG a PDF sin subirlos a servicios web.
 
 ## Herramientas
 
-- R: `qpdf`, entre otros.
+- R: `qpdf`, `magick`, entre otros.
 
 ## Contexto
 
