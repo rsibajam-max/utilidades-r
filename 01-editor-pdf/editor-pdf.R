@@ -52,3 +52,24 @@ setwd("ruta/a/tu/directorio")
 #   pages  = c(1:10, 15, 20:25, 30),
 #   output = "salida.pdf"
 # )
+
+
+# ------------------------------------------------------------
+# Operación 4: convertir imágenes a PDF
+# ------------------------------------------------------------
+# Convierte todos los archivos JPG, JPEG y PNG de la carpeta
+# indicada en un único archivo PDF, en orden alfabético.
+
+# imagenes <- list.files(
+#   "imagenes",
+#   pattern = "\\.(jpg|jpeg|png)$",
+#   full.names = TRUE,
+#   ignore.case = TRUE
+# )
+
+# imagenes <- image_read(imagenes)
+
+# image_write(
+#   imagenes,
+#   "imagenes.pdf"
+# )
